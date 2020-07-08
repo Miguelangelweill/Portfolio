@@ -54,6 +54,7 @@ table {
     margin: 0%;
     z-index: 7;
     padding: 20px;
+    font-family: 'Indie Flower', cursive;
 }
 /*this keeps my navigational system on point*/
 .fixed-top {
@@ -71,7 +72,7 @@ table {
 /*this controls the background image of the page is displayed*/
 .banner-area {
     width: 100%;
-    height: 680px;
+    height: 100vh;
     position: fixed;
     top: 50px;
     background-image:url(https://images.unsplash.com/photo-1515923152115-758a6b16f35e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
@@ -79,6 +80,7 @@ table {
     background-size: cover;
     background-position: center center;
     z-index: 2;
+    margin: 0%;
  }
  /*this controls the lettering in the main image*/
  h2  {
@@ -90,26 +92,11 @@ table {
     margin-left: 2%;
     
 }
- /*trying to make it smooth*/
+ /*trying to make my content smooth*/
 #about-me {
     margin-top: 5%;
 }
 
-/*this controls my h1 elemnt and how it is displayed on the content area*/
-
-h1 {
-    float: left;
-    font-size: 30px;
-    font-family:'Indie Flower', cursive; ;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: black;
-    left: 5%;
-    top: 2%;
-    position: absolute;
-    
-
-}
 /*this controls how the background on my navigational system is displayed*/
 .background {
     background-color: white;
@@ -117,57 +104,60 @@ h1 {
     border-bottom: solid 1px rgb(9, 8, 8);
     position: relative;
  }
-  /*this creates a horizontal line under the about*/
- hr {
-    border: solid 1px lightgray;
-    width:90%;
-    margin-top: 10%;
-}
- /*this is the image in my main content*/
-img {
-    margin: 5%;
-    float: left;
-    width: 300px;
-    margin-top: 1%;
-}
 
- 
- /*this aligns my text with the image*/
- p {
-     margin: 5%;
-     margin-top: 2%;
-     font-family: 'Quicksand', sans-serif;
-     text-align: left;
-     line-height: 20px;
-     
-   
- }
  /*this controls the way my main content moves along the screen*/
 .content-area {
-    height: 1500px;
-    top: 725px;
+    top:100vh;
     position: relative;
     clear: both;
-    text-align: center;
+    text-align: left;
     background-color: rgb(255, 255, 255);
     border-top: solid 2px black ;
-    bottom: 0%;
     width: 100%;
     display: block;
-   z-index: 3;
+    z-index: 3;
+    padding-bottom: 2%;
+    
 }
+/*this controls my h1 elemnt and how it is displayed on the content area*/
+
+h1 {
+    float: left;
+    font-size: 30px;
+    font-family:'Indie Flower', cursive; ;
+    color: black;
+    left: 7%;
+    top: 2%;
+    position: absolute;
+}
+/*this creates a horizontal line under the about*/
+hr {
+    border: solid 1px lightgray;
+    width:90%;
+}
+/*this controls my image size*/
+.size {
+    padding:5%;
+}
+/*this controls the p tags on all of my pages*/
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 20px;
+    padding: 5%;
+ }
+ /* this controls the display on the portfolio.html*/
+ div p {
+     background: darkgrey;
+ }
 /*this displays my footer*/
 .footer {
-    padding: 40px;
-    position: fixed;
+    padding-top: 5%;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     background-color: white;
     border-top: solid 3px black ;
-    bottom: 0%;
     width: 100%;
     display: block;
-   z-index: 4;
-   color: black;
+    margin-bottom: 0%;
  }
