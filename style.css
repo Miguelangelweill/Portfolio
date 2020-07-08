@@ -161,3 +161,6 @@ p {
     display: block;
     margin-bottom: 0%;
  }
+#contact {
+    transition: all ease-out 1.3s; 
+}
