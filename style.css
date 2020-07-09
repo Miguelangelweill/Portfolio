@@ -164,3 +164,9 @@ p {
 #contact {
     transition: all ease-out 1.3s; 
 }
+/*this controls my gallry alike  content*/
+.portfolioImages {
+    height: 300px;
+    width: 300px;
+    margin: 17%;
+}
